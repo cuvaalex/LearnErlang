@@ -1,0 +1,12 @@
+{application, LearnErlang,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { LearnErlang_app, []}},
+  {env, []}
+ ]}.
